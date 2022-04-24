@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Demo Using RestAPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demo showing gathering and displaying data from https://api.webselfstorage.com/
 
-## Available Scripts
 
-In the project directory, you can run:
+## Software Logic
+A locally hosted reactjs frontend connects to a locally hosted nodejs server that GETs data from https://api.webselfstorage.com/ and acts as a middleware to bypass the cors origin policy.
 
-### `npm start`
+## Language
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ - Javascript
+ - HTML
+ - CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frameworks
 
-### `npm test`
+- NodeJS Middleware Backend Server
+- ReactJS Frontend
+- NPM
+- Fetch
+- Styled-Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Skills Demoed
 
-### `npm run build`
+ - RestAPI use
+ - Stylized data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ### RentRoll
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Shows current customers that are on rent, what unit they are occupying, and when they moved in.
 
-### `npm run eject`
+ ![alt text](https://github.com/corygrossman/RestAPI_PinpointStorage/blob/main/data/rentroll.jpg?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ### Images
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Shows current images of the storage facility.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ ![alt text](https://github.com/corygrossman/RestAPI_PinpointStorage/blob/main/data/images.jpg?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ ### WaitingList
 
-## Learn More
+ Shows current customers that are on the waiting list and when their prefered move-in date is.
+ If there is no one on the waiting list, the text "No one is currently on the waiting list" is returned.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ ![alt text](https://github.com/corygrossman/RestAPI_PinpointStorage/blob/main/data/waitlist.jpg?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
