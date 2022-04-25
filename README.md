@@ -6,6 +6,10 @@ This is a demo showing gathering and displaying data from https://api.webselfsto
 ## Software Logic
 A locally hosted reactjs frontend connects to a locally hosted nodejs server that GETs data from https://api.webselfstorage.com/ and acts as a middleware to bypass the cors origin policy.
 
+### System Context Model
+
+ ![alt text](https://github.com/corygrossman/RestAPI_PinpointStorage/blob/master/data/system_context_model.png?raw=true)
+
 ## Language
 
  - Javascript
